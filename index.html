@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiyaan's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            width: 350px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+            border: 5px solid #ffcc00;
+        }
+        .card:hover {
+            transform: scale(1.02);
+        }
+        .header {
+            background-color: #ffcc00;
+            padding: 20px;
+            color: #333;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 20px auto;
+            border: 4px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #777;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background: #fff9e6;
+            font-weight: bold;
+        }
+        .traits {
+            padding: 20px;
+            text-align: left;
+        }
+        .trait-tag {
+            display: inline-block;
+            background: #e1f5fe;
+            color: #0288d1;
+            padding: 5px 12px;
+            border-radius: 15px;
+            margin: 5px;
+            font-size: 0.9em;
+        }
+        .btn {
+            display: block;
+            width: 80%;
+            margin: 20px auto;
+            padding: 12px;
+            background: #ffcc00;
+            color: #333;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #e6b800;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="header">
+        <h1>KIYAAN</h1>
+        <p>Rising Star & Model</p>
+    </div>
+
+    <div class="profile-pic">
+        Photo Here
+    </div>
+
+    <div class="stats">
+        <span>Age: 2</span>
+        <span>|</span>
+        <span>Vibe: Joyful</span>
+    </div>
+
+    <div class="traits">
+        <h3>Superstars Traits:</h3>
+        <span class="trait-tag">✨ Always Smiling</span>
+        <span class="trait-tag">👂 Great Listener</span>
+        <span class="trait-tag">📸 Camera Friendly</span>
+        <span class="trait-tag">🏃 High Energy</span>
+        <span class="trait-tag">🌟 Fashion Forward</span>
+        <span class="trait-tag">🍭 Easily Motivated</span>
+    </div>
+
+    <p style="padding: 0 20px; font-size: 0.9em; color: #666;">
+        Kiyaan is a charismatic 2-year-old with a natural talent for lighting up the room. He follows directions well and loves being the center of attention!
+    </p>
+
+    <a href="mailto:your-email@example.com" class="btn">BOOK KIYAAN</a>
+</div>
+
+</body>
+</html>
